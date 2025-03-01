@@ -1,0 +1,87 @@
+/* Common styles */
+@import url('../global-css/fonts.css');
+@import url('../global-css/reset.css');
+@import url('../global-css/base.css');
+@import url('../global-css/container.css');
+@import url('../global-css/visually-hidden.css');
+
+/* Sections style */
+@import url('../home-page/header.css');
+@import url('../home-page/footer.css');
+
+#wallet {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 0;
+}
+.wallet-div {
+  padding: 0 30px 40px;
+}
+.wallet-h1 {
+  font-weight: 600;
+  font-size: 38px;
+  margin-bottom: 20px;
+}
+.wallet-p {
+  font-size: 16px;
+  line-height: 1.4;
+  margin-bottom: 30px;
+}
+.wallet-ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.wallet-a {
+  border: 1px solid #a259ff;
+  border-radius: 20px;
+  background-color: #3b3b3b;
+  padding: 14.5px 20px 14.5px 40px;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-weight: 600;
+  font-size: 22px;
+}
+@media (width >= 834px) {
+  #wallet {
+    padding: 0;
+    flex-direction: row;
+    gap: 40px;
+  }
+  .wallet-div {
+    padding: 0;
+    max-width: 325px;
+    margin-top: 80px;
+  }
+  .wallet-p {
+    margin-bottom: 30px;
+  }
+}
+@media (width >= 1280px) {
+  #wallet {
+    gap: 60px;
+  }
+  .wallet-div {
+    max-width: 460px;
+    margin-top: 100px;
+  }
+  .wallet-h1 {
+    font-size: 51px;
+    line-height: 1.1;
+  }
+  .wallet-p {
+    font-size: 22px;
+    line-height: 1.6;
+    text-transform: capitalize;
+  }
+  .wallet-a {
+    max-width: 330px;
+  }
+  .wallet-a svg {
+    width: 40px;
+    height: 40px;
+  }
+}

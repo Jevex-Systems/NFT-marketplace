@@ -1,0 +1,132 @@
+.hero-art{
+    margin-bottom: 40px;
+}
+.hero-title{   
+    font-size: 28px;
+    line-height: 1.4;
+    margin-bottom: 10px;
+}
+.hero-btn{
+    display: flex;
+    min-height: 60px;
+    width: 100%;
+    border-radius: 20px;
+    background-color: #a259ff;    
+    font-weight: 600;
+    margin-bottom: 40px;   
+    align-content: center; 
+    justify-content: center;  
+    flex-wrap: wrap;
+    gap: 12px;    
+    }
+.hero-icon{
+    width: 20px;
+    height: 20px;
+    fill: #fff;   
+}
+.hero-list{
+    display: flex;
+    gap: 30px;
+}
+.hero-item{
+    min-width: 85px;
+}
+.hero-item-text-total{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.4;
+    text-transform: capitalize;
+}
+.hero-space-bottom{
+    background-color: #3b3b3b;
+    padding: 22px 20px;
+    border-radius: 0 0 20px 20px;
+    margin-bottom: 40px;
+    margin-top: -8px;
+}
+.hero-space-bottom-walking{
+    margin-bottom: 10px;
+}
+.hero-space-bottom-animakid {
+    font-size: 16px;
+}
+.hero-avatar{
+    min-width: 24px;
+    min-height: 24px;
+}
+.hero-bottom-avatar{
+    display: flex;
+    gap: 12px;
+}
+.hero-space-p {
+    font-weight: 700;
+    font-size: 22px;    
+}
+ /* ======================== 834 ================================ */
+@media (width>=834px) {
+.hero-wrapper {
+    display: flex;
+    flex-wrap: wrap;    
+    gap: 30px;
+    }
+.hero-img{
+    width: 330px;
+    height: 221px;
+    }
+.hero-art {
+    max-width: 330px;
+}
+.hero-price{
+    margin-top: -153px;
+}
+.hero-title{
+    font-size: 38px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+.hero-btn{
+    width: 224px;
+    margin-bottom: 20px;    
+}
+.hero-item{
+    width: 90px;
+}
+} 
+/* =========================== 1280 ============================== */
+@media (width>=1280px) { 
+.hero-img{
+    width: 510px;
+    height: 401px;
+}
+.hero-title {
+    font-size: 67px;
+    line-height: 1.1;
+}
+.hero-art {
+    max-width: 510px;
+}
+.hero-art-text {
+    font-size: 22px;
+    text-transform: capitalize;   
+} 
+.hero-space-p {
+    font-size: 28px;
+    width: 150px;
+}
+.hero-item-text-two {
+    font-size: 23px;
+}
+.hero-btn{
+    margin-bottom: 30px;
+}
+.hero-price {
+    margin-top: -204px;
+}
+.hero-item{
+    width: 150px;
+}
+.hero-item-text-total {
+    font-size: 23px;
+    line-height: 1.6;
+}
+}

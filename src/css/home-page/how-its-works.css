@@ -1,0 +1,208 @@
+.hiw-title {
+  font-size: 28px;
+  line-height: 140%;
+  margin-bottom: 10px;
+}
+.hiw-svg-size {
+  width: 100px;
+  height: 100px;
+}
+
+.hiw-text {
+  font-size: 16px;
+  line-height: 140%;
+  margin-bottom: 40px;
+}
+
+.hiw-list {
+  margin-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.hiw-card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  border-radius: 20px;
+  padding: 20px;
+  background-color: #3b3b3b;
+}
+
+.hiw-card-title {
+  font-size: 16px;
+  line-height: 140%;
+  margin-bottom: 10px;
+}
+
+.hiw-card-text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 140%;
+}
+
+@media screen and (min-width: 834px) {
+  .hiw-svg-size {
+    width: 160px;
+    height: 160px;
+  }
+
+  .hiw-list {
+    flex-direction: row;
+    gap: 30px;
+  }
+
+  .hiw-card {
+    flex-direction: column;
+    border-radius: 20px;
+    padding: 10px 20px 30px 20px;
+  }
+
+  .hiw-svg-div {
+    display: flex;
+    justify-content: center;
+  }
+
+  .hiw-card-wrapp {
+    align-content: end;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .hiw-svg-size {
+    width: 250px;
+    height: 250px;
+  }
+  .hiw-card {
+    width: 330px;
+    padding: 30px;
+  }
+
+  .hiw-list {
+    gap: 30px;
+    margin-bottom: 120px;
+  }
+
+  .hiw-card-title {
+    font-size: 22px;
+  }
+
+  .hiw-card-text {
+    font-size: 16px;
+  }
+}
+
+.astronaut-card-img {
+  margin-bottom: 30px;
+}
+.astronaut-title {
+  font-size: 28px;
+  line-height: 140%;
+  margin-bottom: 10px;
+}
+
+.astronaut-text {
+  font-size: 16px;
+  line-height: 140%;
+  margin-bottom: 40px;
+}
+
+.astronaut-input {
+  border: 1px solid #858584;
+  border-radius: 20px;
+  padding: 12px 101px 12px 20px;
+  margin-bottom: 16px;
+  width: 100%;
+}
+
+.astronaut-input::placeholder {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #2b2b2b;
+}
+
+.astronaut-button {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  padding: 12px 102px;
+  background-color: #a259ff;
+  font-weight: 600;
+  color: #fff;
+  border: none;
+}
+
+@media screen and (min-width: 834px) {
+  .astronaut-list {
+    display: flex;
+    gap: 30px;
+    border-radius: 20px;
+    padding: 40px 30px;
+    background-color: #3b3b3b;
+  }
+
+  .width-li {
+    width: 50%;
+  }
+
+  .astronaut-card-img {
+    margin-bottom: 0;
+  }
+
+  .astronaut-input {
+    padding: 12px 83px 12px 20px;
+  }
+
+  .astronaut-button {
+    padding: 12px 95px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .astronaut-list {
+    align-items: center;
+    padding: 60px;
+    gap: 80px;
+  }
+
+  .astronaut-wrapper-img {
+    margin-right: 80px;
+  }
+
+  .astronaut-title {
+    font-size: 38px;
+    line-height: 120%;
+  }
+
+  .astronaut-text {
+    font-size: 22px;
+    line-height: 160%;
+  }
+
+  .hiw-input-div {
+    position: relative;
+  }
+
+  .astronaut-input {
+    border-radius: 20px;
+    padding: 19px 0px 19px 20px;
+    width: 425px;
+    margin-bottom: 0;
+  }
+
+  .astronaut-button {
+    display: flex;
+    position: absolute;
+    border-radius: 20px;
+    padding: 20px 50px;
+    top: 0;
+    left: 51%;
+  }
+}

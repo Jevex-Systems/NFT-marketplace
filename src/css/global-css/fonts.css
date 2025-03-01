@@ -1,0 +1,125 @@
+@import url('../../fonts/stylesheet.css');
+
+@font-face {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../../fonts/WorkSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../../fonts/WorkSans-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../../fonts/SpaceMono-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../../fonts/SpaceMono-Bold.ttf') format('truetype');
+}
+
+h1 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 600;
+  font-size: 67px;
+  line-height: 1.1;
+  text-transform: capitalize;
+  color: #fff;
+}
+
+h2 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 1.2;
+  text-transform: capitalize;
+  color: #fff;
+}
+
+h3 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 1.4;
+  text-transform: capitalize;
+  color: #fff;
+}
+h4,
+h5,
+h6,
+body {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.4;
+  color: #fff;
+}
+
+span {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.4;
+  color: #858584;
+}
+
+p {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.6;
+  color: #fff;
+}
+
+.space-h2 {
+  font-family: 'Space Mono', sans-serif;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 1.2;
+  text-transform: capitalize;
+  color: #fff;
+}
+
+.space-h3 {
+  font-family: 'Space Mono', sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.4;
+  text-transform: capitalize;
+  color: #fff;
+}
+.space-h4,
+.space-h5,
+.space-h6 {
+  font-family: 'Space Mono', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.4;
+  color: #fff;
+}
+
+.space-span {
+  font-family: 'Space Mono', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.4;
+  color: #858584;
+}
+
+.space-p {
+  font-family: 'Space Mono', sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.6;
+  color: #fff;
+}

@@ -1,0 +1,95 @@
+.trends-title {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+.trends-container-card {
+  width: 315px;
+}
+.trends-container-title {
+  margin-bottom: 40px;
+}
+.trends-text {
+  font-size: 16px;
+}
+
+.trends-link-to-library {
+  font-family: 'Space Mono', sans-serif;
+  font-weight: 700;
+  /* через нього цифри тонші, без нього як на макеті */
+  color: #fff;
+  border-radius: 20px;
+  padding: 36px 22px;
+  background-color: #a259ff;
+}
+
+.trends-picture-list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+}
+.trends-picture-list-item:first-child {
+  width: 315px;
+}
+.trends-picture-list-item:not(:first-child) .trends-picture-list-item-image {
+  width: 95px;
+}
+
+.trends-undertitle {
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+.trends-user-link {
+  margin-bottom: 10px;
+}
+.trends-container-user {
+  display: flex;
+  gap: 12px;
+}
+.trends-user-name {
+  font-size: 16px;
+}
+
+.trends-pc-display,
+.trends-tab-display {
+  display: none;
+}
+
+@media only screen and (min-width: 834px) {
+  .trends-container-card {
+    width: 390px;
+  }
+  .trends-tab-display {
+    display: flex;
+  }
+  .trends-card-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+  }
+  .trends-link-to-library {
+    padding: 32px 16px;
+    font-size: 22px;
+  }
+
+  .trends-card-list-item {
+    max-width: 330px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .trends-pc-display {
+    display: flex;
+  }
+  .trends-title {
+    font-size: 38px;
+  }
+  .trends-text {
+    font-size: 22px;
+  }
+  .trends-container-title {
+    margin-bottom: 60px;
+  }
+}

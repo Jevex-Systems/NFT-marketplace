@@ -1,0 +1,182 @@
+.astronaut-button {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  padding: 12px 102px;
+  background-color: #a259ff;
+  font-weight: 600;
+  color: #fff;
+  border: none;
+}
+.astronaut-input {
+  border: 1px solid #858584;
+  border-radius: 20px;
+  /* padding: 12px 101px 12px 20px; */
+  margin-bottom: 16px;
+  width: 100%;
+}
+
+.astronaut-input::placeholder {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #2b2b2b;
+}
+@media screen and (min-width: 834px) {
+  .astronaut-button {
+    padding: 12px 95px;
+  }
+  .astronaut-input {
+    /* padding: 12px 83px 12px 20px; */
+  }
+}
+@media screen and (min-width: 1280px) {
+  .astronaut-button {
+    display: flex;
+    position: absolute;
+    border-radius: 20px;
+    padding: 20px 50px;
+    top: 0;
+    left: 51%;
+  }
+}
+
+.footer-hiw {
+  padding: 40px 30px;
+}
+
+.hiw-footer-list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+.footer-hiw-nft-logo {
+  margin-bottom: 20px;
+}
+
+.footer-hiw-logo {
+  width: 243px;
+  height: 32px;
+}
+
+.footer-text {
+  font-size: 16px;
+  line-height: 140%;
+  color: #ccc;
+  margin-bottom: 20px;
+}
+.text-footer-one {
+  margin-bottom: 15px;
+}
+
+.footer-item {
+  font-family: 'Space Mono', sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 160%;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.footer-text-link-second {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+
+.footer-list-link {
+  display: flex;
+  gap: 10px;
+}
+
+.footer-link-icon {
+  fill: #858584;
+  width: 32px;
+  height: 32px;
+}
+
+.footer-text-link {
+  display: block;
+  font-size: 16px;
+  line-height: 140%;
+  color: #ccc;
+}
+
+.footer-copyright {
+  font-size: 12px;
+  line-height: 110%;
+  color: #ccc;
+  padding-top: 20px;
+  border-top: 1px solid #858584;
+}
+
+@media (width>= 834px) {
+  .hiw-footer-list {
+    margin-bottom: 49px;
+  }
+  .footer-hiw {
+    padding: 40px 72px;
+  }
+
+  .footer-input {
+    padding: 19px 0 19px 20px;
+    margin-bottom: 0;
+  }
+
+  .footer-input-div {
+    position: relative;
+    width: 420px;
+  }
+
+  .footer-button {
+    position: absolute;
+    display: flex;
+    width: 179px;
+    padding: 20px 50px;
+    top: 0;
+    left: 58%;
+  }
+
+  .footer-button-icon {
+    display: none;
+  }
+}
+
+@media (width>=1280px) {
+  .footer-hiw {
+    padding: 40px 112px;
+  }
+  .hiw-footer-list {
+    flex-direction: row;
+    padding: 0 31px;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+
+  .footer-hiw-logo {
+    margin-bottom: 30px;
+  }
+
+  .text-footer-one {
+    width: 238px;
+    margin-bottom: 15px;
+  }
+
+  .footer-item {
+    margin-bottom: 25px;
+  }
+
+  .footer-text-last {
+    width: 330px;
+  }
+  .footer-button {
+    left: 59%;
+  }
+
+  .footer-input-item {
+    margin-bottom: 0;
+  }
+}

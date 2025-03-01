@@ -1,0 +1,47 @@
+@font-face {
+  font-family: 'Space Mono';
+  src: url('SpaceMono-Bold.eot');
+  src: local('Space Mono Bold'), local('SpaceMono-Bold'),
+    url('SpaceMono-Bold.eot?#iefix') format('embedded-opentype'),
+    url('SpaceMono-Bold.woff2') format('woff2'),
+    url('SpaceMono-Bold.woff') format('woff'),
+    url('SpaceMono-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Space Mono';
+  src: url('SpaceMono-Regular.eot');
+  src: local('Space Mono'), local('SpaceMono-Regular'),
+    url('SpaceMono-Regular.eot?#iefix') format('embedded-opentype'),
+    url('SpaceMono-Regular.woff2') format('woff2'),
+    url('SpaceMono-Regular.woff') format('woff'),
+    url('SpaceMono-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Work Sans';
+  src: url('WorkSans-Regular.eot');
+  src: local('Work Sans'), local('WorkSans-Regular'),
+    url('WorkSans-Regular.eot?#iefix') format('embedded-opentype'),
+    url('WorkSans-Regular.woff2') format('woff2'),
+    url('WorkSans-Regular.woff') format('woff'),
+    url('WorkSans-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Work Sans';
+  src: url('WorkSans-SemiBold.eot');
+  src: local('Work Sans SemiBold'), local('WorkSans-SemiBold'),
+    url('WorkSans-SemiBold.eot?#iefix') format('embedded-opentype'),
+    url('WorkSans-SemiBold.woff2') format('woff2'),
+    url('WorkSans-SemiBold.woff') format('woff'),
+    url('WorkSans-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}

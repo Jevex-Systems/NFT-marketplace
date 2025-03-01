@@ -1,0 +1,17 @@
+/* Common styles */
+@import url('./global-css/fonts.css');
+@import url('./global-css/reset.css');
+@import url('./global-css/base.css');
+@import url('./global-css/container.css');
+@import url('./global-css/visually-hidden.css');
+
+/* Sections style */
+@import url('./home-page/header.css');
+@import url('./home-page/hero.css');
+@import url('./home-page/trends.css');
+@import url('./home-page/creators.css');
+@import url('./home-page/categories.css');
+@import url('./home-page/discovery.css');
+@import url('./home-page/mashrooms.css');
+@import url('./home-page/how-its-works.css');
+@import url('./home-page/footer.css');

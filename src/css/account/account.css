@@ -1,0 +1,101 @@
+/* Common styles */
+@import url('../global-css/fonts.css');
+@import url('../global-css/reset.css');
+@import url('../global-css/base.css');
+@import url('../global-css/container.css');
+@import url('../global-css/visually-hidden.css');
+
+/* Sections style */
+@import url('../home-page/header.css');
+@import url('../home-page/footer.css');
+
+#account {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 0;
+}
+.account-div {
+  padding: 0 30px 40px;
+}
+.account-h1 {
+  font-size: 38px;
+  line-height: 1.2;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+.account-p {
+  font-size: 16px;
+  line-height: 1.4;
+  margin-bottom: 30px;
+}
+.account-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+.account-div-input {
+  position: relative;
+}
+.account-input {
+  width: 100%;
+  padding: 12px 20px 12px 52px;
+  border: 1px solid #858584;
+  border-radius: 20px;
+  border: 1px solid #858584;
+}
+.account-input::placeholder {
+  color: #2b2b2b;
+}
+.account-input-svg {
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  transform: translateY(-50%);
+  fill: #bdbdbd;
+}
+#account-button {
+  padding: 12px 97px;
+  border-radius: 20px;
+  background-color: #a259ff;
+  border: none;
+  font-weight: 600;
+  color: #fff;
+}
+@media (width >= 834px) {
+  #account {
+    padding: 0;
+    flex-direction: row;
+    gap: 40px;
+  }
+  .account-div {
+    padding: 0;
+    max-width: 325px;
+    margin-top: 80px;
+  }
+  #account-button {
+    padding: 12px 102px;
+  }
+}
+@media (width >= 1280px) {
+  #account {
+    gap: 60px;
+  }
+  .account-div {
+    max-width: 460px;
+    margin-top: 100px;
+  }
+  .account-h1 {
+    font-size: 51px;
+    line-height: 1.1;
+  }
+  .account-p {
+    font-size: 22px;
+    line-height: 1.6;
+    text-transform: capitalize;
+  }
+  .account-input {
+    max-width: 330px;
+  }
+}

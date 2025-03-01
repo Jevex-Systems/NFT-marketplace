@@ -1,0 +1,40 @@
+html,
+:has(:target) {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #2b2b2b;
+}
+
+footer {
+  background-color: #3b3b3b;
+}
+
+label,
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+input,
+textarea,
+select,
+button {
+  font: inherit;
+}
+
+section {
+  padding: 40px 0;
+}
+
+@media only screen and (min-width: 1280px) {
+  section {
+    padding: 80px 0;
+  }
+}
