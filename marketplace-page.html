@@ -1,0 +1,942 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/NFT-marketplace-DevNinjas/assets/favicon-DzfJYgsY.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Store - NFT Marketplace</title>
+    <link
+      rel="stylesheet"
+      href="node_modules/modern-normalize/modern-normalize.css"
+    />
+    <script type="module" crossorigin src="/NFT-marketplace-DevNinjas/assets/main-B5Qt9EMX.js"></script>
+    <link rel="stylesheet" crossorigin href="/NFT-marketplace-DevNinjas/assets/marketplace-page-CCqD5fiJ.css">
+  </head>
+  <body>
+    <header>
+  <nav class="header-nav container">
+    <a class="header-nft-logo" href="./index.html">
+      <svg class="header-nft-logo-long">
+        <use xlink:href="/NFT-marketplace-DevNinjas/assets/icons-y5ipST7A.svg#header-nft-logo"></use>
+      </svg>
+    </a>
+    <ul class="header-menu-list-sing-up">
+      <li>
+        <ul class="header-menu-list">
+          <li>
+            <a class="header-menu-list-a" href="./marketplace-page.html#nft"
+              >Marketplace</a
+            >
+          </li>
+          <li>
+            <a
+              class="header-menu-list-a"
+              href="./ranking-page.html#top-creators"
+              >Rankings</a
+            >
+          </li>
+          <li>
+            <a class="header-menu-list-a" href="./wallet.html"
+              >Connect a wallet</a
+            >
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a class="header-sign-up" href="./account.html">
+          <svg class="header-sign-up-user">
+            <use xlink:href="/NFT-marketplace-DevNinjas/assets/icons-y5ipST7A.svg#header-sign-up-user"></use>
+          </svg>
+          Sign Up</a
+        >
+      </li>
+    </ul>
+
+    <svg class="header-burger-menu">
+      <use xlink:href="/NFT-marketplace-DevNinjas/assets/icons-y5ipST7A.svg#header-burger-menu"></use>
+    </svg>
+  </nav>
+</header>
+
+    <main>
+      <section
+  id="marketplace-page-hero"
+  class="container container-hero-marketplace"
+>
+  <h1 class="hero-title">Browse Marketplace</h1>
+  <p class="hero-subtitle">
+    Browse through more than 50k NFTs on the NFT Marketplace.
+  </p>
+
+  <form action="/search" method="get" class="form">
+    <label for="search-field">
+      <input
+        type="text"
+        name="search"
+        id="search-field"
+        class="search-input"
+        placeholder="Search your favourite NFTs"
+      />
+      <button type="submit" class="btn-search">
+        <svg class="icone-search" width="24" height="24">
+          <use xlink:href="/NFT-marketplace-DevNinjas/assets/icons-y5ipST7A.svg#icon-glass"></use>
+        </svg>
+      </button>
+    </label>
+  </form>
+</section>
+
+      <section id="marketplace-page-nft">
+  <ul class="nft-menu-list">
+    <li class="nft-menu-item">
+      <button class="nft-menu-btn nft-padding-1" type="button">
+        NFTs<span class="span nft-menu-span-number">302</span>
+      </button>
+    </li>
+    <li class="nft-menu-item">
+      <button class="nft-menu-btn nft-padding-2" type="submit">
+        Collections<span class="span nft-menu-span-number">67</span>
+      </button>
+    </li>
+  </ul>
+  <div class="container">
+    <ul class="nft-marketplace-list">
+      <li class="nft-marketplace-item-mob">
+        <a href="./nft-page.html#more-from-artist">
+          <div>
+            <picture>
+              <source
+                srcset="/NFT-marketplace-DevNinjas/assets/pc-mashroom-marketplace-_SVgVE6G.webp 1x, /NFT-marketplace-DevNinjas/assets/pc-mashroom-marketplace-@2x-Kky4yYqQ.webp 2x"
+                media="(min-width: 1280px)"
+                type="image/webp"
+              />
+              <source
+                srcset="/NFT-marketplace-DevNinjas/assets/tab-mashroom-marketplace-CwbBIAtA.webp 1x, /NFT-marketplace-DevNinjas/assets/tab-mashroom-marketplace-@2x-C3XFG6nE.webp 2x"
+                media="(min-width: 834px)"
+                type="image/webp"
+              />
+              <source
+                srcset="/NFT-marketplace-DevNinjas/assets/mob-mashroom-marketplace-C03RFxUq.webp 1x, /NFT-marketplace-DevNinjas/assets/mob-mashroom-marketplace-@2x-Bd3pzKDU.webp 2x"
+                media="(max-width: 833px)"
+                type="image/webp"
+              />
+              <source
+                srcset="/src/img/pc/marketplace-page/pc-mashroom-marketplace.png 1x, /src/img/pc/marketplace-page/pc-mashroom-marketplace-@2x.png 2x"
+                media="(min-width: 1280px)"
+                type="image/png.png"
+              />
+              <source
+                srcset="/src/img/tab/marketplace-page/tab-mashroom-marketplace.png 1x, /src/img/tab/marketplace-page/tab-mashroom-marketplace-@2x.png 2x"
+                media="(min-width: 834px)"
+                type="image/png"
+              />
+              <source
+                srcset="/src/img/mob/marketplace-page/mob-mashroom-marketplace.png 1x, /src/img/mob/marketplace-page/mob-mashroom-marketplace-@2x.png 2x"
+                media="(max-width: 833px)"
+                type="image/png"
+              />
+              <img
+                src="/NFT-marketplace-DevNinjas/assets/mob-mashroom-marketplace-CgvYnBA4.png"
+                alt="Magic mashroom"
+                class="nft-marketplace-img"
+              />
+            </picture>
+            <div class="card">
+              <h3 class="title-card">Magic Mushroom 0324</h3>
+              <div class="avatar-card">
+                <img
+                  src="/img/pc/marketplace-page/avatar/avatar-shroomie.png"
+                  alt="avatar"
+                  class="avatar-of-card"
+                  srcset="data:image/webp;base64,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 1x, /NFT-marketplace-DevNinjas/assets/7-2x-BGwvw-CO.webp 2x"
+                  type="image/webp"
+                />
+
+                <p class="space-p text-card">Shroomie</p>
+              </div>
+              <ul class="card-info">
+                <li class="info-item">
+                  <p class="space-span space-span-card">Price</p>
+                  <p class="space-p space-p-card">1.63 ETH</p>
+                </li>
+
+                <li class="info-item-two">
+                  <p class="space-span space-span-card">Highest Bid</p>
+                  <p class="space-p space-p-card">0.33 wETH</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </a>
+      </li>
+      <li class="nft-marketplace-item-mob">
+        <a href="./nft-page.html#more-from-artist">
+          <div>
+            <picture>
+              <source
+                srcset="/NFT-marketplace-DevNinjas/assets/pc-robot1-marketplace-BWLt2-BP.webp 1x, /NFT-marketplace-DevNinjas/assets/pc-robot1-marketplace-@2x-QnhnghcE.webp 2x"
+                media="(min-width: 1280px)"
+                type="image/webp"
+              />
+              <source
+                srcset="/NFT-marketplace-DevNinjas/assets/tab-robot1-marketplace-Dm42aY3j.webp 1x, /NFT-marketplace-DevNinjas/assets/tab-robot1-marketplace-@2x-CVdCNM4k.webp 2x"
+                media="(min-width: 834px)"
+                type="image/webp"
+              />
+              <source
+                srcset="/NFT-marketplace-DevNinjas/assets/mob-robot1-marketplace-Cn3PwG2w.webp 1x, /NFT-marketplace-DevNinjas/assets/mob-robot1-marketplace-@2x-CSDnLblV.webp 2x"
+                media="(max-width: 833px)"
+                type="image/webp"
+              />
+              <source
+                srcset="/NFT-marketplace-DevNinjas/assets/pc-robot1-marketplace-DQ6ixXHa.png 1x, /NFT-marketplace-DevNinjas/assets/pc-robot1-marketplace-@2x-BHzKBZRM.png 2x"
+                media="(min-width: 1280px)"
+                type="image/png.png"
+              />
+              <source
+                srcset="/NFT-marketplace-DevNinjas/assets/tab-robot1-marketplace-DUWrUECf.png 1x, /NFT-marketplace-DevNinjas/assets/tab-robot1-marketplace-@2x-B8fNk5xu.png 2x"
+                media="(min-width: 834px)"
+                type="image/png"
+              />
+              <source
+                srcset="/NFT-marketplace-DevNinjas/assets/mob-robot1-marketplace-BTEFraVC.png 1x, /NFT-marketplace-DevNinjas/assets/mob-robot1-marketplace-@2x-CWS4cBWg.png 2x"
+                media="(max-width: 833px)"
+                type="image/png"
+              />
+              <img
+                src="/NFT-marketplace-DevNinjas/assets/mob-robot1-marketplace-BTEFraVC.png"
+                alt="Happy robot"
+                class="nft-marketplace-img"
+              />
+            </picture>
+            <div class="card">
+              <h3 class="title-card">Happy Robot 024</h3>
+              <div class="avatar-card">
+                <img
+                  src="/NFT-marketplace-DevNinjas/assets/avatar-robot-Bw01i44Y.png"
+                  alt="avatar"
+                  class="avatar-of-card"
+                  srcset="data:image/webp;base64,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 1x, /NFT-marketplace-DevNinjas/assets/avatar-robot-@2x-57zzVjt6.webp 2x"
+                  type="image/webp"
+                />
+
+                <p class="space-p text-card">BeKind2Robots</p>
+              </div>
+              <ul class="card-info">
+                <li class="info-item">
+                  <p class="space-span space-span-card">Price</p>
+                  <p class="space-p space-p-card">1.63 ETH</p>
+                </li>
+                <li class="info-item-two">
+                  <p class="space-span space-span-card">Highest Bid</p>
+                  <p class="space-p space-p-card">0.33 wETH</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </a>
+      </li>
+      <li class="nft-marketplace-item-mob">
+        <a href="./nft-page.html#more-from-artist">
+          <div>
+            <picture>
+              <source
+                srcset="/NFT-marketplace-DevNinjas/assets/pc-robot2-marketplace-B76cyB4P.webp 1x, /NFT-marketplace-DevNinjas/assets/pc-robot2-marketplace-@2x-Cvb5u7-P.webp 2x"
+                media="(min-width: 1280px)"
+                type="image/webp"
+              />
+              <source
+                srcset="/NFT-marketplace-DevNinjas/assets/tab-robot2-marketplace-LgouZsWc.webp 1x, /NFT-marketplace-DevNinjas/assets/tab-robot2-marketplace-@2x-pZBvK4kD.webp 2x"
+                media="(min-width: 834px)"
+                type="image/webp"
+              />
+              <source
+                srcset="/NFT-marketplace-DevNinjas/assets/mob-robot2-marketplace-CrME9Var.webp 1x, /NFT-marketplace-DevNinjas/assets/mob-robot2-marketplace-@2x-BSBTFtJ9.webp 2x"
+                media="(max-width: 833px)"
+                type="image/webp"
+              />
+              <source
+                srcset="/NFT-marketplace-DevNinjas/assets/pc-robot2-marketplace-DL0krQ9d.png 1x, /NFT-marketplace-DevNinjas/assets/pc-robot2-marketplace-@2x-BVe28CNO.png 2x"
+                media="(min-width: 1280px)"
+                type="image/png.png"
+              />
+              <source
+                srcset="/NFT-marketplace-DevNinjas/assets/tab-robot2-marketplace-BnB9flxW.png 1x, /NFT-marketplace-DevNinjas/assets/tab-robot2-marketplace-@2x-DmVLuHn0.png 2x"
+                media="(min-width: 834px)"
+                type="image/png"
+              />
+              <source
+                srcset="/NFT-marketplace-DevNinjas/assets/mob-robot2-marketplace-ZbcVCXef.png 1x, /NFT-marketplace-DevNinjas/assets/mob-robot2-marketplace-@2x-Dg6Y-MD9.png 2x"
+                media="(max-width: 833px)"
+                type="image/png"
+              />
+              <img
+                src="/NFT-marketplace-DevNinjas/assets/mob-robot2-marketplace-ZbcVCXef.png"
+                alt="Happy robot"
+                class="nft-marketplace-img"
+              />
+            </picture>
+            <div class="card">
+              <h3 class="title-card">Happy Robot 0324</h3>
+              <div class="avatar-card">
+                <img
+                  src="/NFT-marketplace-DevNinjas/assets/avatar-robot-Bw01i44Y.png"
+                  alt="avatar"
+                  class="avatar-of-card"
+                  srcset="data:image/webp;base64,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 1x, /NFT-marketplace-DevNinjas/assets/avatar-robot-@2x-57zzVjt6.webp 2x"
+                  type="image/webp"
+                />
+
+                <p class="space-p text-card">BeKind2Robots</p>
+              </div>
+              <ul class="card-info">
+                <li class="info-item">
+                  <p class="space-span space-span-card">Price</p>
+                  <p class="space-p space-p-card">1.63 ETH</p>
+                </li>
+                <li class="info-item-two">
+                  <p class="space-span space-span-card">Highest Bid</p>
+                  <p class="space-p space-p-card">0.33 wETH</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </a>
+      </li>
+      <li class="nft-marketplace-item-mob">
+        <a href="./nft-page.html#more-from-artist">
+          <div>
+            <picture>
+              <source
+                srcset="/NFT-marketplace-DevNinjas/assets/pc-bear-marketplace-CEKOUh5C.webp 1x, /NFT-marketplace-DevNinjas/assets/pc-bear-marketplace-@2x-nRLF8MSO.webp 2x"
+                media="(min-width: 1280px)"
+                type="image/webp"
+              />
+              <source
+                srcset="/NFT-marketplace-DevNinjas/assets/tab-bear-marketplace-2pbwaACO.webp 1x, /NFT-marketplace-DevNinjas/assets/tab-bear-marketplace-@2x-DdKROodq.webp 2x"
+                media="(min-width: 834px)"
+                type="image/webp"
+              />
+              <source
+                srcset="/NFT-marketplace-DevNinjas/assets/mob-bear-marketplace-DZQavYEE.webp 1x, /NFT-marketplace-DevNinjas/assets/mob-bear-marketplace-@2x-D2qTJ4Lo.webp 2x"
+                media="(max-width: 833px)"
+                type="image/webp"
+              />
+              <source
+                srcset="/NFT-marketplace-DevNinjas/assets/pc-bear-marketplace-DBo06WJS.png 1x, /NFT-marketplace-DevNinjas/assets/pc-bear-marketplace-@2x-DkGteWyD.png 2x"
+                media="(min-width: 1280px)"
+                type="image/png.png"
+              />
+              <source
+                srcset="/NFT-marketplace-DevNinjas/assets/tab-bear-marketplace-D5FQsG04.png 1x, /NFT-marketplace-DevNinjas/assets/tab-bear-marketplace-@2x-BbCUH31Z.png 2x"
+                media="(min-width: 834px)"
+                type="image/png"
+              />
+              <source
+                srcset="/NFT-marketplace-DevNinjas/assets/mob-bear-marketplace-D89Vnn_1.png 1x, /NFT-marketplace-DevNinjas/assets/mob-bear-marketplace-@2x-CbR79zk6.png 2x"
+                media="(max-width: 833px)"
+                type="image/png"
+              />
+              <img
+                src="/NFT-marketplace-DevNinjas/assets/mob-bear-marketplace-D89Vnn_1.png"
+                alt="Designer Bear"
+                class="nft-marketplace-img"
+              />
+            </picture>
+            <div class="card">
+              <h3 class="title-card">Designer Bear</h3>
+              <div class="avatar-card">
+                <picture>
+                  <source
+                    srcset="data:image/webp;base64,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"
+                    type="image/webp"
+                  />
+                  <img
+                    srcset="/NFT-marketplace-DevNinjas/assets/avatar-fox-CpuqNI0L.png"
+                    alt="avatar"
+                    class="avatar-of-card"
+                  />
+                </picture>
+
+                <p class="space-p text-card">Mr Fox</p>
+              </div>
+              <ul class="card-info">
+                <li class="info-item">
+                  <p class="space-span space-span-card">Price</p>
+                  <p class="space-p space-p-card">1.63 ETH</p>
+                </li>
+                <li class="info-item-two">
+                  <p class="space-span space-span-card">Highest Bid</p>
+                  <p class="space-p space-p-card">0.33 wETH</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </a>
+      </li>
+      <li class="nft-marketplace-item-mob">
+        <a href="./nft-page.html#more-from-artist">
+          <div>
+            <picture>
+              <source
+                srcset="/NFT-marketplace-DevNinjas/assets/pc-dog-marketplace-BC2TYTW2.webp 1x, /NFT-marketplace-DevNinjas/assets/pc-dog-marketplace-@2x-DNsPpIkP.webp 2x"
+                media="(min-width: 1280px)"
+                type="image/webp"
+              />
+              <source
+                srcset="/NFT-marketplace-DevNinjas/assets/tab-dog-marketplace-EWcoNI95.webp 1x, /NFT-marketplace-DevNinjas/assets/tab-dog-marketplace-@2x-CZAKuN32.webp 2x"
+                media="(min-width: 834px)"
+                type="image/webp"
+              />
+              <source
+                srcset="/NFT-marketplace-DevNinjas/assets/mob-dog-marketplace-CuK7ZPoS.webp 1x, /NFT-marketplace-DevNinjas/assets/mob-dog-marketplace-@2x-BRjhntHz.webp 2x"
+                media="(max-width: 833px)"
+                type="image/webp"
+              />
+              <source
+                srcset="/NFT-marketplace-DevNinjas/assets/pc-dog-marketplace-BeaLSk1k.png 1x, /NFT-marketplace-DevNinjas/assets/pc-dog-marketplace-@2x-lYZqLOB8.png 2x"
+                media="(min-width: 1280px)"
+                type="image/png.png"
+              />
+              <source
+                srcset="/NFT-marketplace-DevNinjas/assets/tab-dog-marketplace-CxswrISD.png 1x, /NFT-marketplace-DevNinjas/assets/tab-dog-marketplace-@2x-zbBy--me.png 2x"
+                media="(min-width: 834px)"
+                type="image/png"
+              />
+              <source
+                srcset="/NFT-marketplace-DevNinjas/assets/mob-dog-marketplace-D8Z8nlzS.png 1x, /NFT-marketplace-DevNinjas/assets/mob-dog-marketplace-@2x-CITa7Ha8.png 2x"
+                media="(max-width: 833px)"
+                type="image/png"
+              />
+              <img
+                src="/NFT-marketplace-DevNinjas/assets/mob-dog-marketplace-D8Z8nlzS.png"
+                alt="Colorful Dog 0324"
+                class="nft-marketplace-img"
+              />
+            </picture>
+            <div class="card">
+              <h3 class="title-card">Colorful Dog 0324</h3>
+              <div class="avatar-card">
+                <picture>
+                  <source
+                    srcset="data:image/webp;base64,UklGRmwOAABXRUJQVlA4WAoAAAAQAAAAdwAAdwAAQUxQSC8CAAABkFVtb95IHwRDEISBIAhlUDMYM9gymDLIMMgwEIRAEARB0EX/EkffOXsZEROA+Zv2n8XcIx99s/U2tKF4Havnzr4OraoNizw41i7ltGE5qXWpRJfImRetQi2n33oF6nlK72dTy9O6nkksT73Iab4jTx7/ziGWBbqc4DuyxBiztZ8s82cu2bJQl4m+PEt1meYSWWxcJrlmwdcprlnydYJrFn097JJlXw6SqCu+DhHPwl2O8Cx9a/v9ZPE/u31n+WMnifpC9vEkaLv8S4pjBwkOIZ8tSdI+0qSpnzgP+6AnUX3PmfhbPanqOxsXe0OTrL5a2CwvJNlGe9bp5HhmfOyJJOH20BmNh5WRPQSjAKBJWYHBaQArpz/AOTlakm7KSgerfmN1X1ktxso2Vu60knXQ+o8etJyV09qMlf2y+ruzunVWQ1lpY9XgnBxYOf0Bg9MAlJMCCEYBAMbo72Ew6g+NkTzA+BieDj79WQs68gy/bBa8VDb6CsZlw5vKpb8DZ+J4W5n092A8HB8qD/0ExmLBxxIcQj7D4HDDnsbAsatEfSH7YNQ3sPe9ujt2b1tt3vaDeGUuOPIr6grBsZe6Lji6V9VxfK+pY8ZeUcecl6gmLphVvBb/wrzilWyCqe913BsmH1FDDMwvXoEJTnmLs8XAWeX3XCY4sfp5THHy7udwRYF9m88URervVLEoCpVus9hoqFb6GkeFjYaiday+l69DUXzTcVtt8yfhbsu9a8P8AFZQOCAWDAAAkDIAnQEqeAB4AD6NOJVHpSMiITL3LACgEYlsCHABdz6Yufzw/J+afXn8p5J+z/rTzA+hf+j61f976tvMD/XDpi+Yz9r/WM/2/7Ae8b+9+oB/Wf8j1nX7b+xP5dn7dfCx/bP+r+5ftYZjH3Af53w383Yh9A2QWuWjp1nDeRqDdK70QHEEXf1Fw4wk7IuBJQr/31LIVjGPKBNmxrgZtOT2Ilgy9iMiQMGcv1klvVJ1lWyZ83x6nCpAnFj/WMJcRKaCCLGqpKr+79QW0co1B8MRoWxue6jE98dOIbHMWWxDQsCd9RBlCS5BvLUmBmp3Szf/3IeEJ9iVJE9c1s5HXLIqHx5t0yuBrjYHTfK9gaZwgXV1cGRN/3skea2hhQw9oIZwNXq+8UMTCjkT3WawM+hmwqzqrTMG49ac+ogsfMjMBRKvPqCILngfnwhw7e+esv+3ddjwf3T51Qekx5LeCUQ9GwhAN0gfa5oarRi2fxH+4dyJa9t+6rP8Y4X1L7zA3xtb1IZu2q+M3MnvG5ZFE47fB4B9LPEg4T3da+03hkAA/uQlshN/XusY2PnDOZS9rjo9/s5A0ETY7zqb9+9mdys5be2lTSXLQUCZAD62CXfalnA0lVIcxBbsU+n0ZX/2V+Sb7NDbZ8vx7/gOAIAP9WbswVdvkfBEKVAztT/WpOnySq+yWR4ESizPUUc7l2e65NR0/AYpqJmw4hXqGJOBvYR1/kbxcn3jAukcqrYwL+GaAOdEwpGFE9dmC5YopDu9P9JEwEQVn2xxKG4lelNKwd2K39DxgaW+tU+3UNjWMUeWb53QroRS82sXZavEJfhvdmY4vU7PJv728OHXFXo08BW+dpHRrlcY40yslRevTEXfUz+9e57upA+tpeobHp9fDWK+ma4mqAeEGR6zSnAGdCekm5OmI89v/5KEt/DFp0kUac8cqInXL33k8V3H7w1mB+EsFO2IIp5xa4DeTCVhfQG2okbCdQFx/Hg2vWKkfimf9qhvHoOc7k/SAvcA2h1784RBARIIaFyRsy3t7uYZ+h6CK6/dj4/V9wgPQo3PnUfURzc8oQelnSdw1ELA2uFc6OuiBMFLS0vs5QychXOUR4++KXAkNYZXxaOPdh1KPj/yXaTe/1fSBSCcAaQ2EsLpUWDotPA0kntroYvsKcCVtf6QLPBidSlKBQ7GwEwi6EmC1Zo/kmLP7gntpdUkAeRrCO73L1c6OJcgqW2v2Kdsotw3LYVTYGo9RXHlJ9pfTnym2zWy24UpnbTBUXFfMmBHN8yJuyc9RV1YXj1QcuU8rcf5VGtUzG+DWxmt8icJ4CTc0+DFsVs714EWMwDnGxszq9l6Hah+g9RZC+f6JubyUhsTv5nMcS0w7JYgKhpKCGNEeL/JKewn/o7Xfj/KVN14qZytXEN/Kmztb96ICf//36GsrSjIkGomIOTsZKVjEfMhpOE3HkI1PrvdnTpawTu3633snbXfzWPfsNNUTNNgLmkhEluhjR+2pVSL5RPWB18D0kNl6GM6D8/9+yv8Xx70Jg2Ks1WzBl20kiZGzcA9suPkvbLFUBF+WBVUR8cIKjjT481LakQLH36iOB3ug13ImdMxVeWHAIMipZSni9fUdTf8QgQHrCHLIsxRQiLvc3otggCuIl7metasBVjgiKW/kid0VusNP8j0bhm0pO7XmOhGS6vncWgEEiMe2a5jDxj1rJdsAyke4k7YUzA3BlBwuaE2wwZGp7md6zbsIXSuAiQ0vtM84blsKR491ckdmHDktHxXwPDkMg3xcUSeoa4z8jHvT2+b/bNVQr2IF9zxl2kwr/Tlridol5aeHBYiKHbGYrvY18EMZihPznu6iBCEDSJAynQmf77gdyx2BEAuuvmP34X4XadFrJvGrwGVp/fIsZ/DbTJ3K2/B9htJPPFJ+7jf5N+6sZ0Yds/TvB4BPAcEhPrHXm+gG9Bgcys2/rf7/M3D+gXk1NBpvWdjF4soVU9efT8RbsOkeBlZy0agahzRM3n7itHmzd+M+1W23j0b5OADUPJg2BfRZzDOpENQvw5zeePv6JsutYSbQHitPa6DXz1rkhdTWfOoYWBxk5A5HJt1SCMXxywmSUH+hBWDjxWjsaZqAEZmRe/YpUXo/ppqQFBCsSn5DJGzAt+V1+Z3dmy/NyNFIHujN82FI+9Bl6bC6r0U9Cj4d95abN8Tkg1aeqm87Un21gbNoRhVW4S0NJPobuBKzcl3YOBUhQND1olrtD2LZBcb2CqhTJ76XdFpwYMHlKSK+tJxZghxRlVdgwMG8NfeocorO7k2al5dOK0W9J5MnAZpQ3/Utd5AMKEiD9+AE2owd4cucw2HpWgQbXCgaPEHyTWrgPuQs83hVRNdZOWK1A/T9NuHjeY99Ee6OR3aevj1HA0+BLaiWViOSodHk2RCOcmUNecAVOOtRbbSVRISeUzw2w933oILVtemC5e3lhmZxpHl9BFMVSc/59BpWnj0oWuGPdxo/6XA7Qk8AaK5zwCBf4Bo3iIjKVYyNtpjSHETH/Le5RyuYgC/RPYDamlmrwc1he3ex7PuNy1qjZcaoQpdaI4uIbgWM3gy3dcGi2jlilNmRc3NGkBtBQ/hrQ9r7TstMOJNw6vuDQL8mtzJ9y4xZ5OONGmwVOAZgap1pkV4vvkjvRtudRlpFqHUj8YXjFnqFc2+Q9c4yTUbOZbvNj72peg8TO9aLE1tOK6k+p87o5ULgKOpS1a0w3xuf+xfn4rvtsctyuBCxMqGacOZD0EZqWcUVf1gFIgINUCUaeZBO4r9b1gaTB4/aYmagYMk/Wouvs9TOfYpJXeiZff1kxg2HnhlOMAtLQdIE6q1StFCPKwDqgA4n1d97r53zdGNBzR52pc+krOoHHs5UJJ+XuVHYOCv1tp7uEySVNycT77AAhayc/fz0cf5g4BtWMUsHx6gPfxB61k0y+TcLOEDc0xnddO4VcZrSjutVCVNfBT3jLuAqW9j38SbUr759PdkPhtH7n+w0tu7XcsoHO4IfTWhAhZSZCXsqd372X3d8ST0fCwr0nxX/FqxS5WBn+015kasaykr9//mgzogj3fXTv/zexZipzzP6Y6ChviJOMvjX1a3GbaCJgu47YbUIOr6WX6OZv7NCtmVuL2tjqTEQYO5JYG/GDBsV9x+Td2SVNujjlwp0qHD3urDGnyKnx1Q6sA0NKL5rBUVNrqajwJeiNNjGqXKR5n8LbjHRwqL1Xde/7ez8mZCVyLdvDqgke7DwueMzUdlWRPpzBwt1570wf2dqys5fllV//TQPrt93vcefPvhcKR68UAgFiMuUhVyGc2387S4ani2LQ/rxIn/PANpvl334P9cfw9yr6LM6EjSUAzAHfqFqnVDbblHK5IUKfBjhFiq5bhJxcl+zdlM/a/QeJ6DXat0f/44zJJC+VoqNjaVmnwqc+Ek7To0Z3s8B+NLcSYLOvv5sb41WhjETTs+N4tmjk0pF1piBZM98u47LY/G51ew/kYDdQE9z9hmPmnzGzqCoyeAxJ4lmxM90IepoBr9bD9MDGsQzRq87bJtXrvBNUuNJcmSsAz/kCh547P/7XxIdbNPgfq6CzlPRpnL/D0WVSrhiRLMOg/8vgQ4yqGbKNCFsN13n8cd+QVIcjEQvIiP77/pHH6XzahI/zRRQsZcZduMo7KAxCAM+ewNLbJvgVj/qc3aMQg2uPWRQHe3tQbinJU810NlwWzJT6NqgRd1fXnYGdxVJOXA14NY6ymAagT/1CTFWRXSl9PSb92YJyiWNwSqOZLZhzGOShyK1V9LVq9wCgAABKz/+cyIBtA4nGJEb/jx+Z4Hzbj2KgwaFOS5/D6d5u8ONKO1R4u2k8qzztViuCmxuo9OWG0dAXOKnJKjCGx8lDtI0FzGtkn+8vuSzrH++Z0M35uG/DE7GHYxEvpRWEaH1cs8O4kjjPDn4xsYz4OoeKMLuFz80N/JUbMFvqW1KzvT/Ixr0HLtYg+830B9p0hPZkAW4gy40NF+rjy8QTwF057PoEEuH3vQJ2Jc+NjudTmLoZ4xA9DGKmfEF+5yysqJDIt6f8ZNEBqlnyb/5ja1/GoFFHxHcC2Z7xRgZ2T0FCl5x0ysad91PuTCxm8rOa/8f+BQFKAAAA=="
+                    type="image/webp"
+                  />
+                  <img
+                    srcset="/NFT-marketplace-DevNinjas/assets/avatar-keepitreal-BXz8_VOI.png"
+                    alt="avatar"
+                    class="avatar-of-card"
+                  />
+                </picture>
+
+                <p class="space-p text-card">Keepitreal</p>
+              </div>
+              <ul class="card-info">
+                <li class="info-item">
+                  <p class="space-span space-span-card">Price</p>
+                  <p class="space-p space-p-card">1.63 ETH</p>
+                </li>
+                <li class="info-item-two">
+                  <p class="space-span space-span-card">Highest Bid</p>
+                  <p class="space-p space-p-card">0.33 wETH</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </a>
+      </li>
+      <li class="nft-marketplace-item-tab">
+        <a href="./nft-page.html#more-from-artist">
+          <div>
+            <picture>
+              <source
+                srcset="/NFT-marketplace-DevNinjas/assets/pc-robot3-marketplace-urLfbQ_J.webp 1x, /NFT-marketplace-DevNinjas/assets/pc-robot3-marketplace-@2x--N7_hHXL.webp 2x"
+                media="(min-width: 1280px)"
+                type="image/webp"
+              />
+              <source
+                srcset="/NFT-marketplace-DevNinjas/assets/tab-robot3-marketplace-BXIv366b.webp 1x, /NFT-marketplace-DevNinjas/assets/tab-robot3-marketplace-@2x-CuwBpXUe.webp 2x"
+                media="(min-width: 834px)"
+                type="image/webp"
+              />
+
+              <source
+                srcset="/NFT-marketplace-DevNinjas/assets/pc-robot3-marketplace-CBb7ihSn.png 1x, /NFT-marketplace-DevNinjas/assets/pc-robot3-marketplace-@2x-DesG9b7L.png 2x"
+                media="(min-width: 1280px)"
+                type="image/png.png"
+              />
+              <source
+                srcset="/NFT-marketplace-DevNinjas/assets/tab-robot3-marketplace-CwdJiNL-.png 1x, /NFT-marketplace-DevNinjas/assets/tab-robot3-marketplace-@2x-VBnrcu0u.png 2x"
+                media="(min-width: 834px)"
+                type="image/png"
+              />
+
+              <img
+                src="/NFT-marketplace-DevNinjas/assets/tab-robot3-marketplace-CwdJiNL-.png"
+                alt="Dancing Robot 0323"
+                class="nft-marketplace-img"
+              />
+            </picture>
+            <div class="card">
+              <h3 class="title-card">Dancing Robot 0323</h3>
+              <div class="avatar-card">
+                <picture>
+                  <source
+                    srcset="data:image/webp;base64,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"
+                    type="image/webp"
+                  />
+                  <img
+                    srcset="/NFT-marketplace-DevNinjas/assets/avatar-robotico-Bkh7TDIm.png"
+                    alt="avatar"
+                    class="avatar-of-card"
+                  />
+                </picture>
+
+                <p class="space-p text-card">Robotica</p>
+              </div>
+              <ul class="card-info">
+                <li class="info-item">
+                  <p class="space-span space-span-card">Price</p>
+                  <p class="space-p space-p-card">1.63 ETH</p>
+                </li>
+                <li class="info-item-two">
+                  <p class="space-span space-span-card">Highest Bid</p>
+                  <p class="space-p space-p-card">0.33 wETH</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </a>
+      </li>
+      <li class="nft-marketplace-item-tab">
+        <a href="./nft-page.html#more-from-artist">
+          <div>
+            <picture>
+              <source
+                srcset="/NFT-marketplace-DevNinjas/assets/pc-girl-marketplace-AlLtoZ9b.webp 1x, /NFT-marketplace-DevNinjas/assets/pc-girl-marketplace-@2x-B4UChxhp.webp 2x"
+                media="(min-width: 1280px)"
+                type="image/webp"
+              />
+              <source
+                srcset="/NFT-marketplace-DevNinjas/assets/tab-girl-marketplace-OshWqSlW.webp 1x, /NFT-marketplace-DevNinjas/assets/tab-girl-marketplace-@2x-CQT34SHT.webp 2x"
+                media="(min-width: 834px)"
+                type="image/webp"
+              />
+
+              <source
+                srcset="/NFT-marketplace-DevNinjas/assets/pc-girl-marketplace-CheZwk92.png 1x, /NFT-marketplace-DevNinjas/assets/pc-girl-marketplace-@2x-acBwbzxD.png 2x"
+                media="(min-width: 1280px)"
+                type="image/png.png"
+              />
+              <source
+                srcset="/NFT-marketplace-DevNinjas/assets/tab-girl-marketplace-DcgedsU3.png 1x, /NFT-marketplace-DevNinjas/assets/tab-girl-marketplace-@2x-CRJgZj62.png 2x"
+                media="(min-width: 834px)"
+                type="image/png"
+              />
+
+              <img
+                src="/NFT-marketplace-DevNinjas/assets/tab-girl-marketplace-DcgedsU3.png"
+                alt="Cherry Blossom Girl 035"
+                class="nft-marketplace-img"
+              />
+            </picture>
+            <div class="card">
+              <h3 class="title-card">Cherry Blossom Girl 035</h3>
+              <div class="avatar-card">
+                <picture>
+                  <source
+                    srcset="data:image/webp;base64,UklGRgwCAABXRUJQVlA4WAoAAAAQAAAAFwAAFwAAQUxQSIoAAAABZ2CQbeTgjeBmcG/0ERHRp4ydwk21bcty47ARwL4AFHGIwOoQgBC+/RH+DUZ3e1t9//seIkT0fwKA/Oa7r8bx3UdEZBb3thJZBzqipuCmNXA/bR+fijF3tRTuluHHEvwsofz9a9l/LMHT0rhYKnNLxv20fZy71oCulgZ2UXUA9/aCuIdb/8JeDABWUDggXAEAALAHAJ0BKhgAGAA+kTiZSSWjIiEwGAgAsBIJagCxHvZ7StJlAHoAdYB0nKNA2bpCHbdCIVGYPiiL98Oi3XinxNH1eA5iRFAA/vHlf8RpWDcNKN7rdnYZJ0vg5qKmJqxhBojT/1S4690unZhzQX9h+B5KZW7RDJ8kJRp7mqd4OaZEXDKHfldEtLEt++IgLM8irstL3XfVTv/IyzL9TtH33g1r8yL92yWDMVMV21gD3laf02bE6WQU/X8AnnYPvDvADYok99CZj76n2UPRp7AAyOPbTh/tR3PlYaetRqpibrYrWIvr3L9vnUkUTxh2qKouvY10Le54W2qysaxEprZo08oNPFrsXEgFX5la8LAQmZw0Ek3hBlhnaUXYnuUEpG0VFBh/g3OpLj+3kU/2HVIdynm6vmhVqE661uY9OHt+LKfqdE7/BZMGh8Jx/2KKNGnFSskXLz642gXa0CtoAA=="
+                    type="image/webp"
+                  />
+                  <img
+                    srcset="data:image/png;base64,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"
+                    alt="avatar"
+                    class="avatar-of-card"
+                  />
+                </picture>
+
+                <p class="space-p text-card">MoonDancer</p>
+              </div>
+              <ul class="card-info">
+                <li class="info-item">
+                  <p class="space-span space-span-card">Price</p>
+                  <p class="space-p space-p-card">1.63 ETH</p>
+                </li>
+                <li class="info-item-two">
+                  <p class="space-span space-span-card">Highest Bid</p>
+                  <p class="space-p space-p-card">0.33 wETH</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </a>
+      </li>
+      <li class="nft-marketplace-item-tab">
+        <a href="./nft-page.html#more-from-artist">
+          <div>
+            <picture>
+              <source
+                srcset="/NFT-marketplace-DevNinjas/assets/pc-space-marketplace-XNRmPIV2.webp 1x, /NFT-marketplace-DevNinjas/assets/pc-space-marketplace-@2x-BybdgboP.webp 2x"
+                media="(min-width: 1280px)"
+                type="image/webp"
+              />
+              <source
+                srcset="/NFT-marketplace-DevNinjas/assets/tab-space-marketplace-d35vAlMv.webp 1x, /NFT-marketplace-DevNinjas/assets/tab-space-marketplace-@2x-Bz6EJw3_.webp 2x"
+                media="(min-width: 834px)"
+                type="image/webp"
+              />
+
+              <source
+                srcset="/NFT-marketplace-DevNinjas/assets/pc-space-marketplace-Nc1ccUCq.png 1x, /NFT-marketplace-DevNinjas/assets/pc-space-marketplace-@2x-BSdTl6ab.png 2x"
+                media="(min-width: 1280px)"
+                type="image/png.png"
+              />
+              <source
+                srcset="/NFT-marketplace-DevNinjas/assets/tab-space-marketplace-BjZVvNwD.png 1x, /NFT-marketplace-DevNinjas/assets/tab-space-marketplace-@2x-oK2ybDOg.png 2x"
+                media="(min-width: 834px)"
+                type="image/png"
+              />
+
+              <img
+                src="/NFT-marketplace-DevNinjas/assets/tab-space-marketplace-BjZVvNwD.png"
+                alt="Space Travel"
+                class="nft-marketplace-img"
+              />
+            </picture>
+            <div class="card">
+              <h3 class="title-card">Space Travel</h3>
+              <div class="avatar-card">
+                <picture>
+                  <source
+                    srcset="data:image/webp;base64,UklGRhICAABXRUJQVlA4WAoAAAAQAAAAFwAAFwAAQUxQSIoAAAABZ2CQbeTgjeBmcG/0ERHRp4ydwk21bcty47ARwL4AFHGIwOoQgBC+/RH+DUZ3e1t9//seIkT0fwKA/Oa7r8bx3UdEZBb3thJZBzqipuCmNXA/bR+fijF3tRTuluHHEvwsofz9a9l/LMHT0rhYKnNLxv20fZy71oCulgZ2UXUA9/aCuIdb/8JeDABWUDggYgEAAFAHAJ0BKhgAGAA+kUKbSiWjoiGoCACwEglkAJ0yhIEIuSwdQC7M93YLFO2ukJ8zTEKsIFVZ9iv4S72tOdfWBGOl+/gA/vV6iSM4ef9FZNs8x5bYFDO9UG8qQr1odOJebajzvDqhH8SZ3HdllNZfTawLdxUT2VkUB0dVz/g99SxSXAQ/62syOX2fkl6MO/6g16Lk7p6g0bY+JX0gO8X9Nd0EfPMaC+K/y/F1jmn9nQJ083ZbdkLmYwp0Fv8KRjxsCr5zfuC6FlyM3j5ayxMWNBopk6/tNg5R/QNcU3dr1RBwlDa/JrhCN/A7q32Gunv9jOU0w8JT9SCblkCmj7rcHtoPVh/lhT0COKVUTsfIU8ha/tR5VNv1DaakSUIX1kx4+n0zOVLCvFIQY4fv0BHRiWCWv13l028OFL38Mf/9AU/29v5BjZsH7rYq8wh/DNk+EL5IiJHI9InyHJV0e+8kz/qAAA=="
+                    type="image/webp"
+                  />
+                  <img
+                    srcset="data:image/png;base64,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"
+                    alt="avatar"
+                    class="avatar-of-card"
+                  />
+                </picture>
+
+                <p class="space-p text-card">NebulaKid</p>
+              </div>
+              <ul class="card-info">
+                <li class="info-item">
+                  <p class="space-span space-span-card">Price</p>
+                  <p class="space-p space-p-card">1.63 ETH</p>
+                </li>
+                <li class="info-item-two">
+                  <p class="space-span space-span-card">Highest Bid</p>
+                  <p class="space-p space-p-card">0.33 wETH</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </a>
+      </li>
+      <li class="nft-marketplace-item-pc">
+        <a href="./nft-page.html#more-from-artist">
+          <div>
+            <picture>
+              <source
+                srcset="/NFT-marketplace-DevNinjas/assets/pc-sunset-marketplace-CwGpIvgt.webp 1x, /NFT-marketplace-DevNinjas/assets/pc-sunset-marketplace-@2x-CKqhQLwn.webp 2x"
+                media="(min-width: 1280px)"
+                type="image/webp"
+              />
+
+              <source
+                srcset="/NFT-marketplace-DevNinjas/assets/pc-sunset-marketplace-B6USTFpd.png 1x, /NFT-marketplace-DevNinjas/assets/pc-sunset-marketplace-@2x-Z8C_rGVY.png 2x"
+                media="(min-width: 1280px)"
+                type="image/png.png"
+              />
+
+              <img
+                src="/NFT-marketplace-DevNinjas/assets/pc-sunset-marketplace-B6USTFpd.png"
+                alt="Sunset"
+                class="nft-marketplace-img"
+              />
+            </picture>
+            <div class="card">
+              <h3 class="title-card">Sunset Dimension</h3>
+              <div class="avatar-card">
+                <picture>
+                  <source
+                    srcset="data:image/webp;base64,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"
+                    type="image/webp"
+                  />
+                  <img
+                    srcset="/NFT-marketplace-DevNinjas/assets/avatar-animokid-aUuOYhwR.png"
+                    alt="avatar"
+                    class="avatar-of-card"
+                  />
+                </picture>
+
+                <p class="space-p text-card">Animakid</p>
+              </div>
+              <ul class="card-info">
+                <li class="info-item">
+                  <p class="space-span space-span-card">Price</p>
+                  <p class="space-p space-p-card">1.63 ETH</p>
+                </li>
+                <li class="info-item-two">
+                  <p class="space-span space-span-card">Highest Bid</p>
+                  <p class="space-p space-p-card">0.33 wETH</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </a>
+      </li>
+      <li class="nft-marketplace-item-pc">
+        <a href="./nft-page.html#more-from-artist">
+          <div>
+            <picture>
+              <source
+                srcset="/NFT-marketplace-DevNinjas/assets/pc-desert-marketplace-CKAYDogy.webp 1x, /NFT-marketplace-DevNinjas/assets/pc-desert-marketplace-@2x-CD96PCM1.webp 2x"
+                media="(min-width: 1280px)"
+                type="image/webp"
+              />
+
+              <source
+                srcset="/NFT-marketplace-DevNinjas/assets/pc-desert-marketplace-8dGoJ-Z2.png 1x, /NFT-marketplace-DevNinjas/assets/pc-desert-marketplace-@2x-DMqiTA8v.png 2x"
+                media="(min-width: 1280px)"
+                type="image/png.png"
+              />
+
+              <img
+                src="/NFT-marketplace-DevNinjas/assets/pc-desert-marketplace-8dGoJ-Z2.png"
+                alt="Desert Walk"
+                class="nft-marketplace-img"
+              />
+            </picture>
+            <div class="card">
+              <h3 class="title-card">Desert Walk</h3>
+              <div class="avatar-card">
+                <picture>
+                  <source
+                    srcset="data:image/webp;base64,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"
+                    type="image/webp"
+                  />
+                  <img
+                    srcset="/NFT-marketplace-DevNinjas/assets/avatar-catch-BotXv_SR.png"
+                    alt="avatar"
+                    class="avatar-of-card"
+                  />
+                </picture>
+
+                <p class="space-p text-card">Catch 22</p>
+              </div>
+              <ul class="card-info">
+                <li class="info-item">
+                  <p class="space-span space-span-card">Price</p>
+                  <p class="space-p space-p-card">1.63 ETH</p>
+                </li>
+                <li class="info-item-two">
+                  <p class="space-span space-span-card">Highest Bid</p>
+                  <p class="space-p space-p-card">0.33 wETH</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </a>
+      </li>
+      <li class="nft-marketplace-item-pc">
+        <a href="./nft-page.html#more-from-artist">
+          <div>
+            <picture>
+              <source
+                srcset="/NFT-marketplace-DevNinjas/assets/pc-monkey-marketplace-B2XHyFpu.webp 1x, /NFT-marketplace-DevNinjas/assets/pc-monkey-marketplace-@2x-Dq16Io-r.webp 2x"
+                media="(min-width: 1280px)"
+                type="image/webp"
+              />
+
+              <source
+                srcset="/NFT-marketplace-DevNinjas/assets/pc-monkey-marketplace-5Pd4VqgW.png 1x, /NFT-marketplace-DevNinjas/assets/pc-monkey-marketplace-@2x-BV0fbMZR.png 2x"
+                media="(min-width: 1280px)"
+                type="image/png.png"
+              />
+
+              <img
+                src="/NFT-marketplace-DevNinjas/assets/pc-monkey-marketplace-5Pd4VqgW.png"
+                alt="IceCream Ape 0324"
+                class="nft-marketplace-img"
+              />
+            </picture>
+            <div class="card">
+              <h3 class="title-card">IceCream Ape 0324</h3>
+              <div class="avatar-card">
+                <picture>
+                  <source
+                    srcset="data:image/webp;base64,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"
+                    type="image/webp"
+                  />
+                  <img
+                    srcset="/NFT-marketplace-DevNinjas/assets/avatar-monkey-CbQKtTHS.png"
+                    alt="avatar"
+                    class="avatar-of-card"
+                  />
+                </picture>
+
+                <p class="space-p text-card">Ice Ape Club</p>
+              </div>
+              <ul class="card-info">
+                <li class="info-item">
+                  <p class="space-span space-span-card">Price</p>
+                  <p class="space-p space-p-card">1.63 ETH</p>
+                </li>
+                <li class="info-item-two">
+                  <p class="space-span space-span-card">Highest Bid</p>
+                  <p class="space-p space-p-card">0.33 wETH</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </a>
+      </li>
+      <li class="nft-marketplace-item-pc">
+        <a href="./nft-page.html#more-from-artist">
+          <div>
+            <picture>
+              <source
+                srcset="/NFT-marketplace-DevNinjas/assets/pc-dog2-marketplace-DaSfgGOQ.webp 1x, /NFT-marketplace-DevNinjas/assets/pc-dog2-marketplace-@2x-BWlBM9k_.webp 2x"
+                media="(min-width: 1280px)"
+                type="image/webp"
+              />
+
+              <source
+                srcset="/NFT-marketplace-DevNinjas/assets/pc-dog2-marketplace-DVgU_U2E.png 1x, /NFT-marketplace-DevNinjas/assets/pc-dog2-marketplace-@2x-0ie1IPdn.png 2x"
+                media="(min-width: 1280px)"
+                type="image/png.png"
+              />
+
+              <img
+                src="/NFT-marketplace-DevNinjas/assets/pc-dog2-marketplace-DVgU_U2E.png"
+                alt="Colorful Dog 0344"
+                class="nft-marketplace-img"
+              />
+            </picture>
+            <div class="card">
+              <h3 class="title-card">Colorful Dog 0344</h3>
+              <div class="avatar-card">
+                <picture>
+                  <source
+                    srcset="data:image/webp;base64,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"
+                    type="image/webp"
+                  />
+                  <img
+                    srcset="/NFT-marketplace-DevNinjas/assets/avatar-puppy-0FS_o0up.png"
+                    alt="avatar"
+                    class="avatar-of-card"
+                  />
+                </picture>
+
+                <p class="space-p text-card">PuppyPower</p>
+              </div>
+              <ul class="card-info">
+                <li class="info-item">
+                  <p class="space-span space-span-card">Price</p>
+                  <p class="space-p space-p-card">1.63 ETH</p>
+                </li>
+                <li class="info-item-two">
+                  <p class="space-span space-span-card">Highest Bid</p>
+                  <p class="space-p space-p-card">0.33 wETH</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </a>
+      </li>
+    </ul>
+  </div>
+</section>
+
+    </main>
+    <footer id="footer" class="footer-hiw">
+  <div class="container">
+    <ul class="hiw-footer-list">
+      <li class="hiw-footer-item hiw-footer-item-first">
+        <a class="footer-hiw-nft-logo" href="./index.html">
+          <svg class="footer-hiw-logo">
+            <use xlink:href="/NFT-marketplace-DevNinjas/assets/icons-y5ipST7A.svg#header-nft-logo"></use>
+          </svg>
+        </a>
+        <div class="text-footer-one">
+          <p class="footer-text footer-text-card">
+            NFT marketplace UI created with Anima for Figma.
+          </p>
+          <p class="footer-text footer-text-item">Join our community</p>
+        </div>
+
+        <ul class="footer-list-link">
+          <li>
+            <a href="https://www.animaapp.com">
+              <svg class="footer-link-icon" width="24" height="24">
+                <use href="/NFT-marketplace-DevNinjas/assets/icons-y5ipST7A.svg#icon-DiscordLogo"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.animaapp.com">
+              <svg class="footer-link-icon" width="24" height="24">
+                <use href="/NFT-marketplace-DevNinjas/assets/icons-y5ipST7A.svg#icon-YoutubeLogo"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.animaapp.com">
+              <svg class="footer-link-icon" width="24" height="24">
+                <use href="/NFT-marketplace-DevNinjas/assets/icons-y5ipST7A.svg#icon-twit2-optimized"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.animaapp.com">
+              <svg class="footer-link-icon" width="24" height="24">
+                <use href="/NFT-marketplace-DevNinjas/assets/icons-y5ipST7A.svg#icon-InstagramLogo"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </li>
+      <li class="hiw-footer-item footer-link-flex">
+        <h2 class="footer-item">Explore</h2>
+        <ul class="footer-text-link-second">
+          <li><a class="footer-text-link" href="">Marketplace</a></li>
+          <li><a class="footer-text-link" href="">Rankings</a></li>
+          <li><a class="footer-text-link" href="">Connect a wallet</a></li>
+        </ul>
+      </li>
+      <li class="hiw-footer-item footer-input-item">
+        <h2 class="footer-item">Join our weekly digest</h2>
+        <p class="footer-text footer-text-last">
+          Get exclusive promotions & updates straight to your inbox.
+        </p>
+        <div class="hiw-input-div footer-input-div">
+          <label for="">
+            <input
+              class="astronaut-input footer-input"
+              type="email"
+              name="email"
+              placeholder="Enter your email here"
+              required
+            />
+          </label>
+          <button class="astronaut-button footer-button" type="button">
+            <svg
+              class="astronaut-button-icon footer-button-icon"
+              width="20"
+              height="20"
+            >
+              <use href="/NFT-marketplace-DevNinjas/assets/icons-y5ipST7A.svg#button-icon"></use>
+            </svg>
+            Subscribe
+          </button>
+        </div>
+      </li>
+    </ul>
+    <p class="footer-copyright">Ⓒ NFT Market. Use this template freely.</p>
+  </div>
+</footer>
+
+  </body>
+</html>
