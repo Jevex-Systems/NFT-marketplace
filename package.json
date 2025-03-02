@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/NFT-marketplace-DevNinjas/",
+    "build": "vite build --base=/NFT-marketplace/",
     "preview": "vite preview"
   },
   "devDependencies": {
